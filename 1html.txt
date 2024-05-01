@@ -1,0 +1,76 @@
+<!-- Check-in and Boarding -->
+<section id="check-in-boarding">
+  <h2>Check-in and Boarding</h2>
+  <p>Manages passenger check-in procedures, generates boarding passes, and tracks passenger boarding status to ensure smooth embarkation.</p>
+  <ul>
+    <li>Check-in management</li>
+    <li>Boarding pass generation</li>
+    <li>Passenger boarding status tracking</li>
+  </ul>
+</section>
+
+<!-- Seat/Room Allocation and Inventory Management -->
+<section id="seat-room-allocation">
+  <h2>Seat/Room Allocation and Inventory Management</h2>
+  <p>Automatically assigns available seats or rooms to passengers during booking based on their preferences and availability.</p>
+  <ul>
+    <li>Seat/Room allocation</li>
+    <li>Inventory management</li>
+    <li>Real-time availability updates</li>
+  </ul>
+  <div class="sub-section">
+    <h3>Inventory Management</h3>
+    <p>Tracks inventory levels for different ticket classes, cabins, and seating categories, updating availability in real-time to prevent overbooking.</p>
+  </div>
+</section>
+
+
+/ * Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+section {
+  background-color: #f7f7f7;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+.sub-section {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Specific styles for each section */
+#check-in-boarding {
+  background-color: #ffe6e6;
+}
+
+#seat-room-allocation {
+  background-color: #e6ffe6;
+}
