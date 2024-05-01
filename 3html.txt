@@ -1,0 +1,64 @@
+<div class="reservation-container">
+  <h1>Seat/Room Reservation</h1>
+  <form>
+    <label for="cabin-type">Cabin Type:</label>
+    <select id="cabin-type">
+      <option value="interior">Interior</option>
+      <option value="oceanview">Oceanview</option>
+      <option value="balcony">Balcony</option>
+      <option value="suite">Suite</option>
+    </select><br>
+    <label for="location">Location:</label>
+    <select id="location">
+      <option value="front">Front</option>
+      <option value="middle">Middle</option>
+      <option value="back">Back</option>
+    </select><br>
+    <label for="amenities">Amenities:</label>
+    <input type="checkbox" id="amenities" name="amenities" value="amenities">
+    <label for="amenities"> Including Amenities</label><br>
+    <button type="submit">Reserve Seat/Room</button>
+  </form>
+</div>
+
+
+
+.reservation-container {
+  width: 50%;
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.reservation-container h1 {
+  margin-bottom: 20px;
+}
+
+.reservation-container form {
+  width: 100%;
+}
+
+.reservation-container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.reservation-container select,
+.reservation-container input[type="checkbox"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.reservation-container button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  width: 100%;
+}
+
+.reservation-container button[type="submit"]:hover {
+  background-color: #444;
+}
