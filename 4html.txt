@@ -1,0 +1,61 @@
+<div class="ticket-booking-container">
+  <h1>Ticket Booking</h1>
+  <form>
+    <label for="destination">Destination:</label>
+    <input type="text" id="destination" name="destination"><br>
+    <label for="departure-date">Departure Date:</label>
+    <input type="date" id="departure-date" name="departure-date"><br>
+    <label for="return-date">Return Date:</label>
+    <input type="date" id="return-date" name="return-date"><br>
+    <label for="cabin-class">Cabin Class:</label>
+    <select id="cabin-class">
+      <option value="economy">Economy</option>
+      <option value="business">Business</option>
+      <option value="first-class">First Class</option>
+    </select><br>
+    <button type="submit">Book Tickets</button>
+  </form>
+</div>
+
+
+
+.ticket-booking-container {
+  width: 50%;
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.ticket-booking-container h1 {
+  margin-bottom: 20px;
+}
+
+.ticket-booking-container form {
+  width: 100%;
+}
+
+.ticket-booking-container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.ticket-booking-container input[type="text"],
+.ticket-booking-container input[type="date"],
+.ticket-booking-container select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.ticket-booking-container button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  width: 100%;
+}
+
+.ticket-booking-container button[type="submit"]:hover {
+  background-color: #444;
+}
